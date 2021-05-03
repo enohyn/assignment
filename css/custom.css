@@ -1,0 +1,82 @@
+.custom-header-pricing{
+
+    padding: .75rem 1.25rem;
+margin-bottom: 0;
+background-color: rgba(0, 0, 0, .0);
+border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
+custom-button{
+    margin: auto;
+}
+.custom-card-footer{
+    background-color: rgba(0,0,0,.0);
+
+}
+.card-custom{
+    position: relative;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-direction: column;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: none;
+
+}
+
+.custom-single-pricing{
+    padding: 60px 50px 50px;
+}
+.custom-padding-brand{
+    padding-top: 100px;
+padding-bottom: 100px;
+}
+.custom-blog-content{
+    border:none
+}
+.custom-padding{
+    padding-top :100px;
+    padding-bottom: 100px;
+}
+.custom-padding-contact{
+    padding-top :50px;
+    padding-bottom: 50px;
+    padding-left :10px;
+}
+
+.custom-padding-welcome{
+    padding-top :50px;
+}
+
+/* Counter Section */
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0px;
+  }
+  
+  h1, h3  {
+    text-transform: uppercase;
+   }
+  
+  .counter
+  {
+      text-align: center;
+  }
+  
+  .counter-count
+  {
+      font-size: 50px;
+      font-weight: bold;
+      position: relative;
+      color: #000000;
+      text-align: center;
+      display: inline-block;
+  }
+  .contact-send{
+    border-radius: 5px;
+  }

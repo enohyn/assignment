@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Shadhin Lab Template</title>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -15,10 +15,11 @@
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css.map" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <header class="bg_cover header-hero">
             <nav class="navbar navbar-expand-sm">
                 <a class="navbar-brand" href="#">
@@ -36,14 +37,14 @@
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#about"> About </a></li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> Services </a>
+                            <a class="nav-link" href="#services"> Services </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> Portfolio </a>
+                            <a class="nav-link" href="#portfolio"> Portfolio </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Blog </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog"> Blog </a></li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> Contact </a>
+                            <a class="nav-link" href="#contact"> Contact </a>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +53,7 @@
 
             <div class="row">
 
-                <div class="col-lg-6 my-auto">
+                <div class="col my-5px">
                     <div class="header-hero-content">
                         <h1 class="hero-title">
                             <b>
@@ -65,17 +66,16 @@
                     </div>
                     <div class="header-hero-content">
                         <div class="header-singup">
-                            <input type="email">
+                            <input type="text">
                             <button class="main-btn"> Sign Up </button>
                         </div>
                     </div>
 
 
                 </div>
-                <div class="col-lg-6">
+                <div class="col">
                     <div class="header-hero-content">
-
-                        <img src="/images/hero-image.png" alt="hero-image">
+                        <img src="images/hero-image.png" alt="hero-image">
                     </div>
                 </div>
             </div>
@@ -85,9 +85,9 @@
     </div>
     <br>
     <main>
-        <section>
+        <section id="about">
             <div class="about-title container">
-                <h1 class="welcome text-center">welcome</h1>
+                <h1 class="custom-padding-welcome welcome text-center">welcome</h1>
                 <h1 class="title text-center">
                     <span>Our 10 years working experience to </span>
                     take care of <br>your business goal.
@@ -105,450 +105,530 @@
             </div>
 
             <!-- Cpunters -->
-            <div class="container">
-                <div class="row">
-                    <br />
-                    <div class="col text-center">
-                        <h2>Bootstrap 4 counter</h2>
-                        <p>counter to count up to a target number</p>
-                    </div>
 
-
-
-                </div>
-                <div class="row text-center">
-                    <div class="single-counter col">
-                        <div class="counter-content">
-                            <i class="fa fa-code fa-2x"></i>
-                            <h2 class=" counter-count timer count-title count-number" data-to="100" data-speed="1500">
-                                100</h2>
-                            <p class="text ">Our Customer</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="counter">
-                            <i class="fa fa-coffee fa-2x"></i>
-                            <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
-                            <p class="count-text ">Happy Clients</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="counter">
-                            <i class="fa fa-lightbulb-o fa-2x"></i>
-                            <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
-                            <p class="count-text ">Project Complete</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="counter">
-                            <i class="fa fa-bug fa-2x"></i>
-                            <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
-                            <p class="count-text ">Coffee With Clients</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- pricing sect -->
-
-        <section id="pricing">
-            <div class=" container section-title">
-                <h1 class="sub-title text-center">pricing plans</h1>
-                <h1 class="title text-center">
-                    Providing best pricing <span>For Your <br>Business.</span>
-                </h1>
-                <div class="row ">
-                    <div class="col-lg-4">
-                        <div class="card single-pricing pricing-color-1 ">
-                            <div class="card-header pricing-price">
-                                <div class="price text-center">
-                                    <b>100</b>/m.<span class="symbol">$</span>
-                                </div>
-                                <div class="pricing-title">
-                                    <div class="btn ">
-                                        20%
-                                    </div>
-                                    <div class="title">
-                                        basic
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card-body pricing-list text-center">
-                                <ul>
-                                    <li>
-                                        Full Access
-                                    </li>
-                                    <li>
-                                        Unlimited Bandwidth
-                                    </li>
-                                    <li>
-                                        50 gb Space
-                                    </li>
-                                    <li>
-                                        1 Month Support
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <div class="card-footer single-pricing">
-                                <div class="pricing-btn justify-content-center">
-                                    <div class="main-btn main-btn-2">
-                                        signup now!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card single-pricing pricing-color-2 pricing-active">
-                            <div class="card-header pricing-price">
-                                <div class="price text-center">
-                                    <b>100</b>/m.<span class="symbol">$</span>
-                                </div>
-                                <div class="pricing-title">
-                                    <div class="btn">
-                                        20%
-                                    </div>
-                                    <div class="title">
-                                        basic
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card-body pricing-list text-center">
-                                <ul>
-                                    <li>
-                                        Full Access
-                                    </li>
-                                    <li>
-                                        Unlimited Bandwidth
-                                    </li>
-                                    <li>
-                                        50 gb Space
-                                    </li>
-                                    <li>
-                                        1 Month Support
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <div class="card-footer single-pricing pricing-color-2">
-                                <div class="pricing-btn justify-content-center">
-                                    <div class="btn main-btn   ">
-                                        signup now!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card single-pricing pricing-color-3 ">
-                            <div class="card-header pricing-price">
-                                <div class="price text-center">
-                                    <b>100</b>/m.<span class="symbol">$</span>
-                                </div>
-                                <div class="pricing-title">
-                                    <div class="btn">
-                                        20%
-                                    </div>
-                                    <div class="title">
-                                        basic
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card-body pricing-list text-center">
-                                <ul>
-                                    <li>
-                                        Full Access
-                                    </li>
-                                    <li>
-                                        Unlimited Bandwidth
-                                    </li>
-                                    <li>
-                                        50 gb Space
-                                    </li>
-                                    <li>
-                                        1 Month Support
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <div class="card-footer single-pricing pricing-color-3">
-                                <div class="pricing-btn justify-content-center">
-                                    <div class="main-btn main-btn-2">
-                                        signup now!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <br>
-
-        <!-- Brand Section -->
-        <section>
-
-            <div class="container m-auto">
-                <div class="row">
-                    <div class="col-lg-2 brand-wrapper single-brand">
-                        <img src="images/brand-1.png" alt="brand-1">
-
-                    </div>
-                    <div class="col-lg-2 brand-wrapper single-brand">
-
-                        <img src="images/brand-2.png" alt="brand-1">
-
-                    </div>
-                    <div class="col-lg-2 brand-wrapper single-brand">
-
-                        <img src="images/brand-3.png" alt="brand-1">
-
-                    </div>
-                    <div class="col-lg-2 brand-wrapper single-brand ">
-
-                        <img src="images/brand-4.png" alt="brand-1">
-
-                    </div>
-
-                    <div class="col-lg-2 brand-wrapper single-brand">
-
-                        <img src="images/brand-5.png" alt="brand-1">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br>
-        <section class="blog">
-            <div class="container ">
-                <!-- tutorial section starts here  -->
-                <div class="tutorial section-title">
-                    <div class="title text-center mb-3 ">
-                        <h3 class="font-weight-bolder sub-title">Our Blog</h3>
-                        <h1 class="title">Latest <span>News</span> </h1>
-                    </div>
+            <div class="counter custom-padding">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 single-blog">
-                            <div class="card blog-content">
-                                <img class="card-img-top" src="images/news-1.jpg" alt="card image">
-                                <div class="card-body">
-                                    <h4 class="card-title blog-title">
-                                        <a class="card-link stretched-link" target="_blank" href="#">Lorem ipsum dolor
-                                            sit amet.</a>
-                                    </h4>
-                                    <div class="blog-author">
-                                        <div class="row">
-                                            <div class="author-image">
-                                                <img src="images/author-1.jpg" alt="author-1">
-                                            </div>
-                                            <div class="author-content">
-                                                <h2 class="sub-title">
-                                                    posted by
-                                                </h2>
-                                                <p class="text">Elon Musk </p>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 single-blog">
-                            <div class="card blog-content">
-                                <img class="card-img-top" src="images/news-2.jpg" alt="card image">
-                                <div class="card-body">
-                                    <h4 class="card-title blog-title">
-                                        <a class="card-link stretched-link" target="_blank" href="#">Lorem ipsum dolor
-                                            sit amet.</a>
-                                    </h4>
-                                    <div class="blog-author">
-                                        <div class="row">
-                                            <div class="author-image">
-                                                <img src="images/author-2.jpg" alt="author-1">
-                                            </div>
-                                            <div class="author-content">
-                                                <h2 class="sub-title">
-                                                    posted by
-                                                </h2>
-                                                <p class="text">Elon Musk </p>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 single-blog">
-                            <div class="card blog-content">
-                                <img class="card-img-top" src="images/news-3.jpg" alt="card image">
-                                <div class="card-body">
-                                    <h4 class="card-title blog-title">
-                                        <a class="card-link stretched-link" target="_blank" href="#">Lorem ipsum dolor
-                                            sit amet.</a>
-                                    </h4>
-                                    <div class="blog-author">
-                                        <div class="row">
-                                            <div class="author-image">
-                                                <img src="images/author-3.jpg" alt="author-1">
-                                            </div>
-                                            <div class="author-content">
-                                                <h2 class="sub-title">
-                                                    posted by
-                                                </h2>
-                                                <p class="text">Elon Musk </p>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
+                        <div class="col-12 col-lg-4 single-counter">
+                            <div class="count-up counter-content ">
+                                <p class="counter-count">100</p>
+                                <h6 class="text">Clients</h6>
                             </div>
                         </div>
 
+                        <div class="col-12 col-lg-4 single-counter">
+                            <div class="count-up counter-content">
+                                <p class="counter-count">200</p>
+                                <h6 class="text">Satisfaction</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4 single-counter">
+                            <div class="count-up counter-content">
+                                <p class="counter-count">300</p>
+                                <h6 class="text">Projects</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+            </div>
         </section>
-        <br>
+            <!-- Services sect -->
 
-        <section class="contact-us">
-            <div class="container">
-                <div class="contact-section my-5">
-                    <div class="section-title text-center mb-3">
-                        <h3 class="sub-title">Our Contact</h3>
-                        <h3 class="title">Get In <span>Touch</span></h3>
-                    </div>
-                    <div class="contact-wrapper-form">
-                        <div class="contact-title">
-                            Leave a <span>Message</span>
-                        </div>
-                        <form action="" class="w-50 was-validated ">
+            <section id="services">
+                <div class=" container section-title">
+                    <h1 class="sub-title text-center">pricing plans</h1>
+                    <h1 class="title text-center">
+                        Providing best pricing <span>For Your <br>Business.</span>
+                    </h1>
+                    <div class="row ">
+                        <div class="col-lg-4">
+                            <div class="card card-custom single-pricing pricing-color-1 ">
+                                <div class="card-header pricing-price custom-header-pricing">
 
-                            <div class="form-group contact-form ">
-                                <label for="fullname">Fullname</label>
-                                <input type="text" class="form-control" name="fullname" required>
-                                <div class="valid-feedback">Valid</div>
-                                <div class="form-message.error">Please enter your fullname as soon as possible</div>
-                            </div>
-                            <div class="contact-form form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" name="email">
-                            </div>
-                            <div class="contact-form form-group">
-                                <label for="subject">Subject</label>
-                                <input type="text" class="form-control" name="subject">
-                            </div>
+                                    <div class="price text-center">
+                                        <b>50</b>/m.<span class="symbol">$</span>
+                                    </div>
+                                    <div class=" pricing-title ">
+                                        <div class="row">
+                                            <div class="btn">
+                                                20% off
+                                            </div>
+                                            <div>
+                                                <h2 class="title">
+                                                    Basic
+                                                </h2>
+                                            </div>
 
-                            <div class="contact-form form-group">
-                                <label for="message">message</label>
-                                <textarea style="resize: none;" name="message" class="form-control" id="" cols="30"
-                                    rows="10"></textarea>
-                            </div>
+                                        </div>
 
-                            <div class="contact-form form-group">
-                                <button class="main-btn"> Send Message</button>
-                            </div>
-                        </form>
-                    </div>
 
-        </section>
-        <footer class="footer_cover">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 footer-about">
-                        <div class="footer-title">
-                            <h2 class="title text-primary">DOCTOR</h2>
-                            <p class="text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, perferendis?
-                            </p>
-                            <p class="text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, perferendis?
-                            </p>
-                        </div>
+                                    </div>
+                                </div>
 
-                    </div>
-                    <div class="col-lg-3 footer-link ">
-                        <div class="footer-title ">
-                            <h2 class="title ">Services</h2>
-                            <div class="footer-link">
-                                <ul>
-                                    <li>Digital Marketting</li>
-                                    <li>Business Consultancy</li>
-                                    <li>Market Analysis</li>
-                                    <li>Web-Development</li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3 footer-about ">
-                        <div class="footer-title footer-link">
-                            <h2 class="title">About Us</h2>
-                            <div class="footer-link">
-                                <ul>
-                                    <li>Awards & Recognition</li>
-                                    <li>Why Us</li>
-                                    <li>Overview</li>
-                                    <li>Web-Development</li>
-
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3 footer-about ">
-                        <div class="footer-title">
-                            <h2 class="title ">Contact Info</h2>
-                            <div class="footer-link">
-                                <ul>
-                                    <li>Digital Marketting</li>
-                                    <li>Business Consultancy</li>
-                                    <li>Market Analysis</li>
-                                    <li>Web-Development</li>
-
-                                </ul>
-
-                            </div>
-                            <div class="footer-contact mt-3">
-                                <div class="social">
+                                <div class=" pricing-list text-center">
                                     <ul>
                                         <li>
-                                            <a href="#" class="fa fa-facebook"></a>
+                                            Full Access
                                         </li>
                                         <li>
-                                            <a href="#" class="fa fa-twitter"></a>
-
+                                            Unlimited Bandwidth
                                         </li>
                                         <li>
-                                            <a href="#" class="fa fa-instagram"></a>
-
+                                            50 gb Space
                                         </li>
                                         <li>
-                                            <a href="#" class="fa fa-linkedin"></a>
-
+                                            1 Month Support
                                         </li>
                                     </ul>
+
+                                </div>
+                                <div class=" custom-card-footer single-pricing">
+                                    <div class="pricing-btn justify-content-center">
+                                        <div class="main-btn main-btn-2">
+                                            signup now!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card card-custom single-pricing pricing-color-2 pricing-active">
+                                <div class="card-header pricing-price custom-header-pricing">
+                                    <div class="price text-center">
+                                        <b>69</b>/m.<span class="symbol">$</span>
+                                    </div>
+                                    <div class="pricing-title">
+                                        <div class="row">
+                                            <div class="btn">
+                                               Special
+                                            </div>
+                                            <div >
+                                                <h2 class="title">
+                                                    Standard
+                                                </h2>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" pricing-list text-center">
+                                    <ul>
+                                        <li>
+                                            Full Access
+                                        </li>
+                                        <li>
+                                            Unlimited Bandwidth
+                                        </li>
+                                        <li>
+                                            50 gb Space
+                                        </li>
+                                        <li>
+                                            1 Month Support
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="single-pricing custom-card-footer pricing-color-2">
+                                    <div class="pricing-btn justify-content-center">
+                                        <div class="btn main-btn   ">
+                                            signup now!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card card-custom single-pricing pricing-color-3  ">
+                                <div class="card-header pricing-price custom-header-pricing">
+                                    <div class="price text-center">
+                                        <b>99</b>/m.<span class="symbol">$</span>
+                                    </div>
+                                    <div class="pricing-title">
+                                        <div class="row">
+                                            <div class="btn">
+                                                New
+                                            </div>
+                                            <div >
+                                                <h2 class="title">
+                                                    Premium
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" pricing-list text-center">
+                                    <ul>
+                                        <li>
+                                            Full Access
+                                        </li>
+                                        <li>
+                                            Unlimited Bandwidth
+                                        </li>
+                                        <li>
+                                            50 gb Space
+                                        </li>
+                                        <li>
+                                            1 Month Support
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="single-pricing custom-card-footer pricing-color-3">
+                                    <div class="pricing-btn justify-content-center">
+                                        <div class="main-btn main-btn-2">
+                                            signup now!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <br>
+
+            <!-- Brand Section -->
+            <section id="portfolio"class="custom-padding-brand justify-content-center">
+
+                <div class="container">
+                    <div class="row ">
+                        <div class="col brand-wrapper single-brand">
+                            <img src="images/brand-1.png" alt="brand-1">
+
+                        </div>
+                        <div class="col brand-wrapper single-brand">
+
+                            <img src="images/brand-2.png" alt="brand-1">
+
+                        </div>
+                        <div class="col brand-wrapper single-brand">
+
+                            <img src="images/brand-3.png" alt="brand-1">
+
+                        </div>
+                        <div class="col brand-wrapper single-brand ">
+
+                            <img src="images/brand-4.png" alt="brand-1">
+
+                        </div>
+
+                        <div class="col brand-wrapper single-brand">
+
+                            <img src="images/brand-5.png" alt="brand-1">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <!-- Blog section starts here  -->
+            <section id="blog"class="blog">
+                <div class="container">
+
+                    
+
+                    <div class="blog section-title">
+                        <div class="title text-center mb-3 ">
+                            <h3 class="font-weight-bolder sub-title">Our Blog</h3>
+                            <h1 class="title">Latest <span>News</span> </h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 single-blog">
+                                <div class="card blog-content custom-blog-content">
+                                    <img class="card-img-top" src="images/news-1.jpg" alt="card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title blog-title">
+                                            <a class="card-link stretched-link" target="_blank" href="#">Lorem ipsum
+                                                dolor
+                                                sit amet.</a>
+                                        </h4>
+                                        <div class="blog-author">
+                                            <div class="row">
+                                                <div class="author-image">
+                                                    <img src="images/author-1.jpg" alt="author-1">
+                                                </div>
+                                                <div class="author-content">
+                                                    <h2 class="sub-title">
+                                                        posted by
+                                                    </h2>
+                                                    <p class="text">Elon Musk </p>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 single-blog">
+                                <div class="card blog-content custom-blog-content">
+                                    <img class="card-img-top" src="images/news-2.jpg" alt="card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title blog-title">
+                                            <a class="card-link stretched-link" target="_blank" href="#">Lorem ipsum
+                                                dolor
+                                                sit amet.</a>
+                                        </h4>
+                                        <div class="blog-author">
+                                            <div class="row">
+                                                <div class="author-image">
+                                                    <img src="images/author-2.jpg" alt="author-1">
+                                                </div>
+                                                <div class="author-content">
+                                                    <h2 class="sub-title">
+                                                        posted by
+                                                    </h2>
+                                                    <p class="text">Elon Musk </p>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 single-blog ">
+                                <div class="card blog-content custom-blog-content">
+                                    <img class="card-img-top" src="images/news-3.jpg" alt="card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title blog-title">
+                                            <a class="card-link stretched-link" target="_blank" href="#">Lorem ipsum
+                                                dolor
+                                                sit amet.</a>
+                                        </h4>
+                                        <div class="blog-author">
+                                            <div class="row">
+                                                <div class="author-image">
+                                                    <img src="images/author-3.jpg" alt="author-1">
+                                                </div>
+                                                <div class="author-content">
+                                                    <h2 class="sub-title">
+                                                        posted by
+                                                    </h2>
+                                                    <p class="text">Elon Musk </p>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+            </section>
+            <br>
+
+            <section id="contact">
+                <div class="container">
+                    <div class="contact-section my-5">
+                        <div class="section-title text-center mb-3">
+                            <h3 class="sub-title">Our Contact</h3>
+                            <h3 class="title">Get In <span>Touch</span></h3>
+                        </div>
+
+                        <div class="row custom-padding-contact">
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="single-contact-info contact-color-1">
+                                        <div class="contact-info-icon">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="single-contact-info">
+                                        <div class="contact-info-content">
+                                            <p class="text">19 Orchard ST Millburn <br>
+                                                New Jersey, United States
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="single-contact-info contact-color-2">
+                                        <div class="contact-info-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="single-contact-info">
+                                        <div class="contact-info-content">
+                                            <p class="text"> support@shadhinlab.com <br>
+                                                support@shadhinlab.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="single-contact-info contact-color-3">
+                                        <div class="contact-info-icon">
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="single-contact-info">
+                                        <div class="contact-info-content">
+                                            <p class="text"> support@shadhinlab.com <br>
+                                                support@shadhinlab.com
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
+                    
+                        <div class="contact-wrapper-form">
+                            <div class=" row">
+                                
+
+                                <div class="contact-title">
+                                    <i class="fa fa-envelope"></i>
+                                    Leave a <span> Message</span>
+                                </div>
+                                
+                            </div>
+                            <br>
+
+                            <form action="mailto:email@email.com" method="submit" enctype="text/plain"
+                                class="was-validated contact">
+
+                                <div class="row">
+                                    <div class="col-lg-6 ">
+                                        <div class="form-group contact-form">
+                                            <label for="fullname"> Full Name</label>
+                                            <input type="text" placeholder="Full Name" class="form-control"
+                                                name="fullname" required>
+                                            <div class="form-message-success valid-feedback">Valid</div>
+                                            <div class="form-message-error invalid-feedback">Invalid Message</div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group contact-form">
+                                            <label for="email">Email</label>
+                                            <input type="text" placeholder="Email" class="form-control" name="fullname"
+                                                required>
+                                            <div class="valid-feedback">Valid</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="form-group contact-form">
+                                    <label for="message"> Your Message </label>
+                                    <textarea placeholder="Your Message" name="message" id="" class="form-control"
+                                        cols="30" rows="8"></textarea>
+                                </div>
+                                <div class="contact-form form-group">
+
+                                    <button type="submit" class="btn main-btn" value="submit"> Send Now</button>
+
+
+                                </div>
+
+
+                            </form>
+                        </div>
+
+            </section>
+
+    </main>
+    <footer class="footer_cover container">
+        <div>
+            <br>
+            <div class="row">
+                <div class="col-lg-3 footer-about">
+                    <div class="footer-title">
+                        <h2 class="title text-primary">DOCTOR</h2>
+                        <p class="text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, perferendis?
+                        </p>
+                        <p class="text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, perferendis?
+                        </p>
                     </div>
+
                 </div>
-                <div class=" text-center footer-copyright">
-                    <p class="text">&copy; Shayok Ullah assigned by <a> Shadhin Labs</a></p>
+                <div class="col-lg-3 footer-link ">
+                    <div class="footer-title ">
+                        <h2 class="title ">Services</h2>
+                        <div class="footer-link">
+                            <ul>
+                                <li>Digital Marketting</li>
+                                <li>Business Consultancy</li>
+                                <li>Market Analysis</li>
+                                <li>Web-Development</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3 footer-about ">
+                    <div class="footer-title footer-link">
+                        <h2 class="title">About Us</h2>
+                        <div class="footer-link">
+                            <ul>
+                                <li>Awards & Recognition</li>
+                                <li>Why Us</li>
+                                <li>Overview</li>
+                                <li>Web-Development</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 footer-about ">
+                    <div class="footer-title">
+                        <h2 class="title ">Contact Info</h2>
+                        <div class="footer-link">
+                            <ul>
+                                <li>Digital Marketting</li>
+                                <li>Business Consultancy</li>
+                                <li>Market Analysis</li>
+                                <li>Web-Development</li>
+
+                            </ul>
+
+                        </div>
+                        <div class="footer-contact mt-3">
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="fa fa-facebook"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-twitter"></a>
+
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-instagram"></a>
+
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-linkedin"></a>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </footer>
-    </main>
+            <div class=" text-center footer-copyright">
+                <p class="text">&copy; Shayok Ullah assigned by <a> Shadhin Labs</a></p>
+            </div>
+        </div>
+    </footer>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script> -->
@@ -571,7 +651,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/wow.min.js"></script>
-
+    <script src="js/counter.js"></script>
 </body>
 
 </html>
