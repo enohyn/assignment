@@ -120,7 +120,7 @@ p {
   font-family: "Nunito", sans-serif; }
 
 .bg_cover {
-  background-image: url(images/page-banner-1.jpg);
+  background-image: url(/images/page-banner-1.jpg);
   /* background-position: center; */
   background-size: cover;
   
