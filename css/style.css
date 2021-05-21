@@ -127,6 +127,7 @@ p {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%; }
+  
   .footer_cover{
     background-image: url(/images/footer-bg.jpg);
     background-size: cover;

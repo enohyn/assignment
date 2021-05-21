@@ -41,7 +41,7 @@
     <div class="container-fluid bg_cover">
     <div class="container">
         <header class=" header-hero">
-            <nav id="#nav" class="navbar navbar-expand-sm">
+            <!-- <nav id="#nav" class="navbar navbar-expand-sm">
                 <a class="navbar-brand" href="#">
                     <h3 class="text-primary">DOCTOR</h3>
                 </a>
@@ -68,8 +68,37 @@
                         </li>
                     </ul>
                 </div>
+                
+            </nav> -->
+
+            <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-right">
+                <a class="navbar-brand " href="#"><h3 class="text-primary">DOCTOR</h3></a>
+                <button class="navbar-toggler active" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                  <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                  </ul>
+                 
+                </div>
                 <button class="main-btn">Download</button>
-            </nav>
+              </nav>
 
          <div class="row">
             <div class="col">
@@ -129,29 +158,49 @@
 
             <!-- Counters -->
 
-            <div class="counter custom-padding">
-                <div class="container">
+            <div class="container counter custom-padding">
+                <div class=" about-counter">
                     <div class="row">
-                        <div class="col-12 col-lg-4 single-counter">
-                            <div class="count-up counter-content ">
-                                <p class="counter-count">100</p>
-                                <h6 class="text">Clients</h6>
+                        <div class="col-sm-4">
+                            <div class="single-counter counter-color-1 mb-5">
+                                <div class="counter-shape">
+                                    <span class="shape-1"></span>
+                                    <span class="shape-2"></span>
+                                </div>
+                                <div class="count-up counter-content">
+                                    <p class="counter-count">100</p>
+                                    <h6 class="text">Clients</h6>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="col-12 col-lg-4 single-counter">
-                            <div class="count-up counter-content">
-                                <p class="counter-count">200</p>
-                                <h6 class="text">Satisfaction</h6>
+                        <div class="col-sm-4">
+                            <div class="single-counter counter-color-2 mb-5">
+                                <div class="counter-shape">
+                                    <span class="shape-1"></span>
+                                    <span class="shape-2"></span>
+                                </div>
+                                <div class="count-up counter-content">
+                                    <p class="counter-count">200</p>
+                                    <h6 class="text">Satisfaction</h6>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="col-12 col-lg-4 single-counter">
+                       <div class="col-sm-4">
+                        <div class="single-counter counter-color-3 mb-5">
+                            <div class="counter-shape">
+                                <span class="shape-1"></span>
+                                <span class="shape-2"></span>
+                            </div>
                             <div class="count-up counter-content">
                                 <p class="counter-count">300</p>
                                 <h6 class="text">Projects</h6>
                             </div>
                         </div>
+                       </div>
+
+                        
+
+                        
                     </div>
                 </div>
             </div>
@@ -456,7 +505,7 @@
                         </div>
 
                         <div class="row custom-padding-contact">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 mb-3">
                                 <div class="row">
                                     <div class="single-contact-info contact-color-1">
                                         <div class="contact-info-icon">
@@ -472,7 +521,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 mb-3">
                                 <div class="row">
                                     <div class="single-contact-info contact-color-2">
                                         <div class="contact-info-icon">
@@ -488,7 +537,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 mb-3">
                                 <div class="row">
                                     <div class="single-contact-info contact-color-3">
                                         <div class="contact-info-icon">
@@ -511,7 +560,7 @@
                             <div class=" row">
                                 
 
-                                <div class="contact-title">
+                                <div class="contact-title ml-3">
                                     <i class="fa fa-envelope"></i>
                                     Leave a <span> Message</span>
                                 </div>
@@ -526,7 +575,7 @@
                                     <div class="col-lg-6 ">
                                         <div class="form-group contact-form">
                                             <label for="fullname"> Full Name</label>
-                                            <input type="text" placeholder="Full Name" class="form-control"
+                                            <input type="text" placeholder="Full Name" 
                                                 name="fullname" required>
                                             <div class="form-message-success valid-feedback">Valid</div>
                                             <div class="form-message-error invalid-feedback">Invalid Message</div>
@@ -536,7 +585,7 @@
                                     <div class="col-lg-6">
                                         <div class="form-group contact-form">
                                             <label for="email">Email</label>
-                                            <input type="text" placeholder="Email" class="form-control" name="fullname"
+                                            <input type="text" placeholder="Email"  name="fullname"
                                                 required>
                                             <div class="valid-feedback">Valid</div>
                                         </div>
@@ -545,7 +594,7 @@
                                 </div>
                                 <div class="form-group contact-form">
                                     <label for="message"> Your Message </label>
-                                    <textarea placeholder="Your Message" name="message" id="" class="form-control"
+                                    <textarea placeholder="Your Message" name="message" id="" 
                                         cols="30" rows="8"></textarea>
                                 </div>
                                 <div class="contact-form form-group">
@@ -562,7 +611,7 @@
             </section>
 
     </main>
-    <footer class="footer_cover container">
+    <footer class="footer_cover container ">
         <div>
             <br>
             <div class="row">
@@ -578,7 +627,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-3 footer-link ">
+                <div class="col-lg-3 footer-link mt-5 ">
                     <div class="footer-title ">
                         <h2 class="title ">Services</h2>
                         <div class="footer-link">
@@ -594,7 +643,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-3 footer-about ">
+                <div class="col-lg-3 footer-about mt-5 ">
                     <div class="footer-title footer-link">
                         <h2 class="title">About Us</h2>
                         <div class="footer-link">
@@ -609,7 +658,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-3 footer-about ">
+                <div class="col-lg-3 footer-about mt-5">
                     <div class="footer-title">
                         <h2 class="title ">Contact Info</h2>
                         <div class="footer-link">
@@ -687,6 +736,9 @@
    
     <script src="js/counter.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/navbar.js"></script>
+
+   
    
 </div>
 </body>
