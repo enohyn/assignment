@@ -71,7 +71,7 @@
                 
             </nav> -->
 
-            <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-right">
+            <nav class="navbar navbar-expand-sm navbar-light navbar-right">
                 <a class="navbar-brand " href="#"><h3 class="text-primary">DOCTOR</h3></a>
                 <button class="navbar-toggler active" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -97,6 +97,7 @@
                   </ul>
                  
                 </div>
+                
                 <button class="main-btn">Download</button>
               </nav>
 
@@ -163,38 +164,48 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="single-counter counter-color-1 mb-5">
-                                <div class="counter-shape">
-                                    <span class="shape-1"></span>
-                                    <span class="shape-2"></span>
-                                </div>
-                                <div class="count-up counter-content">
-                                    <p class="counter-count">100</p>
-                                    <h6 class="text">Clients</h6>
+                                <div class="row">
+                                    <div class="counter-shape">
+                                        <span class="shape-1"></span>
+                                        <span class="shape-2"></span>
+                                    </div>
+                                    <div class="m-auto count-up counter-content">
+                                        <p class="counter-count">100</p>
+                                        <h6 class="text">Clients</h6>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="single-counter counter-color-2 mb-5">
-                                <div class="counter-shape">
-                                    <span class="shape-1"></span>
-                                    <span class="shape-2"></span>
+                                <div class="row">
+                                    <div class="counter-shape">
+                                        <span class="shape-1"></span>
+                                        <span class="shape-2"></span>
+                                    </div>
+                                    <div class="m-auto count-up counter-content">
+                                        <p class="counter-count">200</p>
+                                        <h6 class="text">Satisfaction</h6>
+                                    </div>
                                 </div>
-                                <div class="count-up counter-content">
-                                    <p class="counter-count">200</p>
-                                    <h6 class="text">Satisfaction</h6>
-                                </div>
+                                
+                               
                             </div>
                         </div>
                        <div class="col-sm-4">
                         <div class="single-counter counter-color-3 mb-5">
-                            <div class="counter-shape">
-                                <span class="shape-1"></span>
-                                <span class="shape-2"></span>
+                            <div class="row">
+                                <div class="counter-shape">
+                                    <span class="shape-1"></span>
+                                    <span class="shape-2"></span>
+                                </div>
+                                <div class="m-auto count-up counter-content">
+                                    <p class="counter-count">300</p>
+                                    <h6 class="text">Projects</h6>
+                                </div>
                             </div>
-                            <div class="count-up counter-content">
-                                <p class="counter-count">300</p>
-                                <h6 class="text">Projects</h6>
-                            </div>
+                           
+                            
                         </div>
                        </div>
 
@@ -368,27 +379,27 @@
 
                 <div class="container  "style="align-self: center;">
                     <div class="row ">
-                        <div class="col brand-wrapper single-brand">
+                        <div class="ml-50 col brand-wrapper single-brand">
                             <img src="images/brand-1.png" alt="brand-1">
 
                         </div>
-                        <div class="col brand-wrapper single-brand">
+                        <div class=" ml-50 col brand-wrapper single-brand">
 
                             <img src="images/brand-2.png" alt="brand-1">
 
                         </div>
-                        <div class="col brand-wrapper single-brand">
+                        <div class="ml-50 col brand-wrapper single-brand">
 
                             <img src="images/brand-3.png" alt="brand-1">
 
                         </div>
-                        <div class="col brand-wrapper single-brand ">
+                        <div class="ml-50 col brand-wrapper single-brand ">
 
                             <img src="images/brand-4.png" alt="brand-1">
 
                         </div>
 
-                        <div class="col brand-wrapper single-brand">
+                        <div class="ml-50 col brand-wrapper single-brand">
 
                             <img src="images/brand-5.png" alt="brand-1">
                         </div>
@@ -615,7 +626,7 @@
         <div>
             <br>
             <div class="row">
-                <div class="col-lg-3 footer-about">
+                <div class="col-lg-3 footer-about mt-5">
                     <div class="footer-title">
                         <h2 class="title text-primary">DOCTOR</h2>
                         <p class="text">
@@ -741,6 +752,11 @@
    
    
 </div>
+<script>
+    $("#navbarSupportedContent a:not(.dropdown-toggle)").click(function() {
+      $("#navbarSupportedContent").collapse("hide");
+    });
+  </script>
 </body>
 
 </html>
