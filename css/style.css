@@ -134,7 +134,7 @@ p {
   font-family: "Nunito", sans-serif; }
 
 .bg_cover {
-  background-image: url(/images/page-banner-1.jpg);
+  background-image: url(../images/page-banner-1.jpg);
   /* background-position: center; */
   background-size: cover;
   
@@ -143,14 +143,18 @@ p {
   height: 100%; }
   
   .footer_cover{
-    background-image: url(/images/footer-bg.jpg);
+    background-image: url(../images/footer-bg.jpg);
     background-size: cover;
   
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
   }
 
+ 
+
+ 
+  
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
@@ -805,11 +809,11 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-hero-content {
-    padding-top: 150px; } }
+    padding-top: 50px; } }
 
 @media (max-width: 767px) {
   .header-hero-content {
-    padding-top: 150px; } }
+    padding-top: 50px; } }
 
 .header-hero-content .hero-title {
   font-size: 60px;
@@ -1578,12 +1582,15 @@ p {
       border-radius: 50px;
       background-color: #4bb3f9;
       color: #fff;
-      font-size: 14px; }
+      font-size: 14px; 
+      margin-top: 10px;
+    }
     .single-pricing .pricing-title .title {
       font-weight: 600;
       font-size: 24px;
       font-family: "Nunito", sans-serif;
-      padding-left: 10px; }
+      padding-left: 10px;
+      padding-top: 10px; }
   .single-pricing .pricing-list ul li {
     font-size: 14px;
     color: #798795;

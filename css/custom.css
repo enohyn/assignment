@@ -60,6 +60,10 @@ padding-bottom: 100px;
   .counter
   {
       text-align: center;
+      justify-content: center;
+      margin-left: 0;
+      margin-right: 0;
+
   }
   
   .counter-count
