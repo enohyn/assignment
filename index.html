@@ -27,7 +27,7 @@
         <div class="container ">
             <header class=" headroom ">
 
-                <nav id="navbar" class=" navbar-area navbar navbar-expand-sm navbar-light navbar-right">
+                <nav  class=" navbar-area navbar navbar-expand-sm navbar-light navbar-right">
                     <a class="navbar-brand " href="#">
                         <h3 class="text-primary">DOCTOR</h3>
                     </a>
@@ -43,16 +43,16 @@
                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
 
@@ -717,6 +717,24 @@
             }
         )
         wow.init();
+
+
+        //fixed navbar
+
+        window.onscroll= function(){fixingNavbar()};
+
+        var AboutPosTop=document.getElementById('about').offsetTop;
+            var halfOfPos=AboutPosTop/2;
+
+            function fixingNavBar() {
+                if(window.pageYOffset>100){
+                    document.getElementsByClassName('navbar')[0].classList.add('fixed');
+                }
+                else {
+                    document.getElementsByClassName('navbar')[0].classList.remove('fixed');
+                }
+                
+            }
     </script>
 
 
