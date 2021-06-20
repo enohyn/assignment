@@ -78,19 +78,3 @@ padding-bottom: 100px;
     border-radius: 5px;
   }
 
-  #navbar {
-    overflow: hidden;
-  }
-  
-  #navbar a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }

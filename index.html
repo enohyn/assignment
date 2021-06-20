@@ -22,78 +22,84 @@
     </script>
 </head>
 
-<body>
-    <div class="container-fluid bg_cover ">
-        <div class="container ">
-            <header class=" headroom ">
-
-                <nav  class=" sticky-top navbar-area navbar navbar-expand-sm navbar-light navbar-right">
-                    <a class="navbar-brand " href="#">
-                        <h3 class="text-primary">DOCTOR</h3>
-                    </a>
-                    <button class="navbar-toggler active" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#services">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <button class="main-btn">Download</button>
-                </nav>
-
-
-
-                <div class="row">
-                    <div class="col-sm-12 col-lg-6 header-hero">
-                        <div class="  wow slideInUp header-hero-content ">
-                            <h1 class="hero-title">
-                                <b>
-                                    Consultancy Partner for Your
-                                    <span class=>Growth</span></b>
-                            </h1>
-                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis
-                                amet cupiditate, recusandae perferendis molestiae nostrum ipsam dolor autem impedit.</p>
-                            <div class="header-singup">
-                                <input placeholder="your@domain.com" type="text">
-                                <button class="main-btn"> Sign Up </button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-12 col-lg-6 header-hero">
-                        <div class=" wow slideInRight header-hero-content">
-                            <div class="image">
-                                <img src="images/hero-image.png" alt="hero-image">
-
-                            </div>
-                        </div>
-                    </div>
+<body> 
+    <div  class=" sticky-top container-fluid menu_cover">
+        <div class="container">
+            <nav  class=" navbar-area navbar navbar-expand-sm navbar-light navbar-right">
+                <a class="navbar-brand" href="#">
+                    <h3 class="text-primary">DOCTOR</h3>
+                </a>
+                <button class="navbar-toggler active" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+    
                 </div>
-                
-            </header>
+                <button class="main-btn">Download</button>
+            </nav>
         </div>
-
+        
 
     </div>
+    <div class=" bg_cover">
+
+            <div class="container ">
+                
+                    
+    
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6 header-hero">
+                            <div class="  wow slideInUp header-hero-content ">
+                                <h1 class="hero-title">
+                                    <b>
+                                        Consultancy Partner for Your
+                                        <span class=>Growth</span></b>
+                                </h1>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis
+                                    amet cupiditate, recusandae perferendis molestiae nostrum ipsam dolor autem impedit.</p>
+                                <div class="header-singup">
+                                    <input placeholder="your@domain.com" type="text">
+                                    <button class="main-btn"> Sign Up </button>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="col-sm-12 col-lg-6 header-hero">
+                            <div class=" wow slideInRight header-hero-content">
+                                <div class="image">
+                                    <img src="images/hero-image.png" alt="hero-image">
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+            </div>
+    
+    </div>
+    
+
     <main>
         <section id="about">
             <div class="about-title container">
@@ -721,20 +727,22 @@
 
         //fixed navbar
 
-        window.onscroll= function(){fixingNavbar()};
+        window.onscroll = function() {myFunction()};
 
-        var AboutPosTop=document.getElementById('about').offsetTop;
-            var halfOfPos=AboutPosTop/2;
+// Get the navbar
+var navbar = document.getElementById("navbar");
 
-            function fixingNavBar() {
-                if(window.pageYOffset>100){
-                    document.getElementsByClassName('navbar')[0].classList.add('fixed');
-                }
-                else {
-                    document.getElementsByClassName('navbar')[0].classList.remove('fixed');
-                }
-                
-            }
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} 
     </script>
 
 
